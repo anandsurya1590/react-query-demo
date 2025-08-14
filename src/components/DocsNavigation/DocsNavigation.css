@@ -1,0 +1,36 @@
+.docs-nav {
+  width: 250px;
+  padding: 2rem 1rem;
+  border-right: 1px solid #e5e7eb;
+  height: calc(100vh - 60px); /* Adjust based on your header height */
+  position: fixed;
+  left: 0;
+  top: 60px; /* Adjust based on your header height */
+  overflow-y: auto;
+  background-color: #f9fafb;
+}
+
+.docs-nav-title {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+  color: #111827;
+}
+
+.docs-nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.docs-nav-link {
+  display: block;
+  padding: 0.5rem 0;
+  color: #4b5563;
+  text-decoration: none;
+  transition: color 0.2s ease;
+}
+
+.docs-nav-link:hover {
+  color: #2563eb;
+}

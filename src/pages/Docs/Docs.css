@@ -1,0 +1,30 @@
+.docs-layout {
+  display: flex;
+  min-height: calc(100vh - 60px); /* Adjust based on your header height */
+}
+
+.docs-content {
+  flex: 1;
+  margin-left: 250px; /* Same as docs-nav width */
+  padding: 2rem;
+  max-width: calc(100% - 250px);
+}
+
+.docs-content-inner {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.docs-content h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem;
+  color: #111827;
+}
+
+.docs-content p {
+  font-size: 1.125rem;
+  line-height: 1.75;
+  color: #4b5563;
+  margin-bottom: 1.5rem;
+}
